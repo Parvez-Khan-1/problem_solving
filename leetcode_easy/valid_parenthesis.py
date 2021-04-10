@@ -19,7 +19,7 @@ class Solution:
         else:
             return True
 
-exp = "{{}[][[]]]}"
+exp = "{{}[][[[]]]}"
 
 s = Solution()
 print(s.isValid(exp))
